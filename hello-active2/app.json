@@ -1,0 +1,35 @@
+{
+  "app": {
+    "appId": "com.example.helloactive2",
+    "appName": {
+      "en-US": "Hello Active 2"
+    },
+    "version": {
+      "code": 1,
+      "name": "1.0.0"
+    },
+    "icon": "assets/app.png",
+    "description": {
+      "en-US": "Minimal Zepp OS hello world sample for Amazfit Active 2."
+    }
+  },
+  "module": {
+    "pages": [
+      "pages/index/index"
+    ]
+  },
+  "i18n": [
+    "en-US"
+  ],
+  "runtime": {
+    "minPlatformVersion": "2.0"
+  },
+  "targets": [
+    {
+      "platform": "watch",
+      "devices": [
+        "active_2"
+      ]
+    }
+  ]
+}
